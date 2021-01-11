@@ -10,7 +10,7 @@ from typing import List
 
 async def get_html_content(url: str) -> AsyncHTMLSession.get:
     """
-    Return an html content of a website referenced by the given url
+    Return an html content of a given url
 
     :param url: A web url.
     :return: Html content of a website.
